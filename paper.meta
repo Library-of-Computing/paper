@@ -1,0 +1,27 @@
+# Add Article details
+title: Title of your article
+tags:
+  - tag1
+  - tag2
+  - tag3
+  - tag4
+# Currently we only support following paper types
+# review | software
+type: review
+# For a full list of collections https://go.here
+collections: ["Security & Privacy"]
+# For a full list of special issues https://go.here
+special_issue: "DevSecOps"
+# Name of Authors
+authors:
+  - name: Abhishek Tiwri
+    orcid: 000-0003-2222-2395
+    github: abhishektiwari
+    affiliation: "1, 2" # (Multiple affiliations must be quoted)
+  - name: Some Name
+    affiliation: 2
+affiliations:
+ - name: Amazon
+   index: 1
+ - name: Some Institution
+   index: 2
